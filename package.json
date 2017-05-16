@@ -1,0 +1,24 @@
+{
+  "name": "m4",
+  "version": "1.4.18",
+  "description": "m4 macro processor",
+  "esy": {
+    "buildsInSource": true,
+    "build": [
+      "./configure --prefix=$cur__install",
+      "make -j",
+      "make install"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://git.sv.gnu.org/m4"
+  },
+  "keywords": [
+    "m4",
+    "macro",
+    "processor",
+    "unix"
+  ],
+  "license": "GPL-3.0"
+}
