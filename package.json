@@ -1,5 +1,5 @@
 {
-  "name": "m4",
+  "name": "@esy-ocaml/m4",
   "version": "1.4.18",
   "description": "m4 macro processor",
   "esy": {
