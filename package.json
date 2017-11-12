@@ -6,7 +6,11 @@
     "buildsInSource": true,
     "build": [
       "./configure --prefix=$cur__install",
-      "make -j",
+      "touch -mt 0011171533 **",
+      "touch -mt 0011171533 m4/**",
+      "make -j"
+    ],
+    "install": [
       "make install"
     ]
   },
